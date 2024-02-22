@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .margin-top-40 {
+    margin top: 40px;
+}
+
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    color: pink;
+}
+
+.container-cabecalho {
+    font-weight: 600;
+    font-size: 2em;
+    color: yellow;
+}
+*/
+.container-navegacao {
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(203, 203, 203);
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.container-navegacao-img {
+    float: left;
+
+}
+
+.container-navegacao a {
+    font-size: 1em;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #6d6d6d;
+    width: 2000px;
+
+}
+
+.container-navegacao a:hover {
+    color: #000000;
+}
+
+body {
+    background-image: url(IMG_4043\ copiar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+
+}
+
+.container-fotos {
+    float: center;
+    /*margin: 60px auto;*/
+    background: rgba(0, 0, 0, 0.75);
+    /* width: 400px;*/
+    padding: 121px;
+    /*border-radius: 10px;*/
+    text-align: center;
+}
+
+.container-pe {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(166, 166, 166);
+    background: rgba(0, 0, 0, 0.75);
+
+}
+
+.icone {
+    width: 0px;
+    margin: 60px 0px 0px 0px;
+    float: right
+}
+
+.icone2 {
+    width: 0px;
+    margin: 60px 60px 0px 0px;
+    float: right
+}
+
+.icone3 {
+    width: 00px;
+    margin: 60px 60px 0px 0px;
+    float: right
+}
+
+.icone4 {
+    width: 30px;
+    margin: 60px 30px 0px 0px;
+    float: right
+}
+
+.btn {
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 50px;
+    background: rgba(241, 237, 237, 0.75);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.75);
+    transition: background .8s;
+    transition: color .5s;
+
+}
+
+.btn:hover {
+    background-color: rgba(182, 175, 175, 0.75);
+    color: rgba(60, 60, 60, 0.75);
+}
+
+.btn:active {
+    background-color: rgba(255, 114, 114, 0.75);
+    color: rgba(241, 237, 237, 0.75);
+}
+
+.btn2 {
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 50px;
+    background: rgba(241, 237, 237, 0.75);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.75);
+    transition: background .8s;
+    transition: color .5s;
+}
+
+/*-------------
+
+@media screen {
+    body {
+        width: 90%;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen {
+    .container-navegacao {
+        width: 110%;
+        font-size: 100%;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+@media screen {
+    .container-fotos {
+        width: 94%;
+        font-size: 100%;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+*/
+@media screen and (max-width:422px) {
+    .container-fotos {
+
+        padding: 10em;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        display: block;
+        line-height: 10px;
+        padding-right: auto;
+
+    }
+}
+
+@media screen and (max-width:422px) {
+
+    body {
+        width: 25.5%;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:422px) {
+
+    .container-navegacao {
+        width: 610%;
+        padding: auto;
+        line-height: 40px;
+        justify-content: flex-start;
+        margin: 0px 0px 0px 0px;
+        font-size: 0.9em;
+
+
+
+    }
+}
+
+@media screen and (max-width:422px) {
+
+    .icone,
+    .icone2,
+    .icone3,
+    .icone4 {
+
+        width: 0%;
+        padding: 0px;
+        margin: 72px 50px 0px 0px;
+        line-height: 1px;
+        text-align: center;
+        padding-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+}
+
+
+@media screen and (max-width:422px) {
+
+    .container-pe {
+        object-fit: cover;
+        text-align: center;
+        padding: 0px;
+        line-height: 16px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
